@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Items\Antivenom.png" />
+    <Resource Include="Images\Items\HolyWater.png" />
+    <Resource Include="Images\Items\MedicinalHerbs.png" />
+    <Resource Include="Images\Items\Bandage.png" />
+	<Resource Include="Images\Items\Shovel.png" />
+	<Resource Include="Images\Items\SkeletonKey.png" />
+	<Resource Include="Images\Items\Torch.png" />
+	<Resource Include="Images\Items\Empty.png" />
+	<Resource Include="Images\Items\TheBlood.png" />
+	<Resource Include="Images\Circle.png" />
+  </ItemGroup>
+
+</Project>

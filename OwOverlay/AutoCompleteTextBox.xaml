@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="OwOverlayDD.AutoCompleteTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OwOverlayDD"
+             mc:Ignorable="d" Focusable="True" GotFocus="UserControl_GotFocus">
+	<Border Padding="5">
+		<Grid>
+			<TextBox ContextMenu="{x:Null}" x:Name="hintTextBox" Focusable="False" IsReadOnly="True" d:Text="UwU" TextAlignment="Left" Foreground="Gray"/>
+			<TextBox ContextMenu="{x:Null}" x:Name="userTextBox" Background="Transparent" Focusable="True" d:Text="Uw" TextAlignment="Left" TextChanged="userTextBox_TextChanged" PreviewKeyDown="userTextBox_PreviewKeyDown" PreviewMouseRightButtonDown="userTextBox_PreviewMouseRightButtonDown"/>
+		</Grid>
+	</Border>
+</UserControl>
