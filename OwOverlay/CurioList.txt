@@ -1,0 +1,60 @@
+Alchemy Table 
+Torch 
+Medicinal Herbs
+Altar of Light 
+Holy Water
+Ancient Coffin
+Barnacle Crusted Chest
+Bas-Relief
+Beast Carcass
+Bone Altar
+Bookshelf
+Brackish Tide Pool
+Confession Booth
+Crate
+Decorative Urn
+Dinner Cart
+Discarded Pack
+Eerie Coral
+Eerie Spiderweb
+Eldritch Altar
+Fish Carcass
+Fish Idol
+Giant Oyster
+Heirloom Chest
+Holy Fountain
+Iron Maiden
+Left Luggage
+Locked Display Cabinet
+Locked Sarcophagus
+Makeshift Dining Table
+Moonshine Barrel
+Mummified Remains
+Occult Scrawlings
+Old Tree
+Pile of Bones
+Pile of Scrolls
+Pristine Fountain
+Rack of Blades
+Sack
+Sacrificial Stone
+Sarcophagus
+Sconce
+Shallow Grave
+Shambler's Altar
+Ship's Figurehead
+Stack of Books
+Suit of Armor
+Traveller's Tent
+Troubling Effigy
+Unlocked Strongbox 
+Bloodflowers
+Damned Fountain
+Disturbing Diversion
+Forgotten Delicacies
+Hooded Shrew
+Wizened Shrew
+Pile of Strange Bones
+Throbbing Coccoons
+Thronging Hive
+Wine Crate

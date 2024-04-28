@@ -7,7 +7,7 @@
              mc:Ignorable="d">
 
 	<StackPanel>
-		<Image x:Name="image" d:Source="/Images/Items/Antivenom.png" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Source="{Binding Source}" MouseLeftButtonDown="image_MouseLeftButtonDown" MouseRightButtonDown="image_MouseRightButtonDown" MouseDown="image_MouseDown"/>
+		<Image x:Name="image" d:Source="/Images/Items/Antivenom.png" HorizontalAlignment="Left" VerticalAlignment="Top" MaxWidth="50" Source="{Binding Source}" MouseLeftButtonDown="image_MouseLeftButtonDown" MouseRightButtonDown="image_MouseRightButtonDown" MouseDown="image_MouseDown"/>
 		<Border Width="28" Height="28">
 			<Border.RenderTransform>
 				<TransformGroup>

@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows;
@@ -25,12 +26,19 @@ namespace OwOverlayDD
 		{
 			InitializeComponent();
 			DataContext = this;
+
+			foreach (var f in Directory.GetFiles("Images/Items"))
+			{
+				if (!f.EndsWith(".png")) break;
+				var itemCounter = new ItemCounter() { Source = new BitmapImage(new Uri(f, UriKind.Relative)) };
+
+				counterStackPanel.Children.Add(itemCounter);
+			}
 		}
 
-		private void Window_Loaded(object sender, RoutedEventArgs e)
+		private void Window_LayoutUpdated(object sender, EventArgs e)
 		{
-			var desktopWorkingArea = SystemParameters.WorkArea;
-			Left = desktopWorkingArea.Right - Width;
+			Left = SystemParameters.WorkArea.Right - Width;
 			Top = 0;
 		}
 
@@ -46,9 +54,9 @@ namespace OwOverlayDD
 
 		private void ResetButton_Click(object sender, RoutedEventArgs e)
 		{
-            foreach (var item in counterStackPanel.Children)
-				if (item is ItemCounter)
-					((ItemCounter)item).ResetCounter();
+            foreach (var element in counterStackPanel.Children)
+				if (element is ItemCounter itemCounter)
+					itemCounter.ResetCounter();
 
 			noteBox.Clear();
 		}

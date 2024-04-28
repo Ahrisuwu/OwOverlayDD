@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OwOverlayDD"
         mc:Ignorable="d"
-        Title="MainWindow" WindowStyle="None" AllowsTransparency="True" Topmost="True" Loaded="Window_Loaded"
-		SizeToContent="WidthAndHeight">
+        Title="MainWindow" WindowStyle="None" AllowsTransparency="True" Topmost="True"
+		SizeToContent="WidthAndHeight" LayoutUpdated="Window_LayoutUpdated">
 	<Window.Background>
 		<SolidColorBrush Opacity="0" Color="Black"/>
 	</Window.Background>
@@ -18,17 +18,9 @@
 			<Button Width="20" Focusable="False" Margin="1" Content="R" VerticalAlignment="Top" Background="#FF121212" Foreground="#FFA5A5A5" Click="ResetButton_Click" FontFamily="Source Sans Pro" />
 		</StackPanel>
 
-		<StackPanel x:Name="contentPanel" Width="400">
+		<StackPanel x:Name="contentPanel">
 			<StackPanel x:Name="counterStackPanel" Orientation="Horizontal">
 
-				<local:ItemCounter Source="/Images/Items/Antivenom.png"/>
-				<local:ItemCounter Source="/Images/Items/Bandage.png"/>
-				<local:ItemCounter Source="/Images/Items/HolyWater.png"/>
-				<local:ItemCounter Source="/Images/Items/MedicinalHerbs.png"/>
-				<local:ItemCounter Source="/Images/Items/Shovel.png"/>
-				<local:ItemCounter Source="/Images/Items/SkeletonKey.png"/>
-				<local:ItemCounter Source="/Images/Items/Torch.png"/>
-				<local:ItemCounter Source="/Images/Items/TheBlood.png"/>
 			</StackPanel>
 			
 			<local:NoteBox x:Name="noteBox"/>

@@ -10,16 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Items\Antivenom.png" />
-    <Resource Include="Images\Items\HolyWater.png" />
-    <Resource Include="Images\Items\MedicinalHerbs.png" />
-    <Resource Include="Images\Items\Bandage.png" />
-	<Resource Include="Images\Items\Shovel.png" />
-	<Resource Include="Images\Items\SkeletonKey.png" />
-	<Resource Include="Images\Items\Torch.png" />
-	<Resource Include="Images\Items\Empty.png" />
-	<Resource Include="Images\Items\TheBlood.png" />
-	<Resource Include="Images\Circle.png" />
+	<Content Include="Images\**\*.png" CopyToOutputDirectory="Always"/>
+	<Content Include="CurioList.txt" CopyToOutputDirectory="Always"/>
   </ItemGroup>
 
 </Project>
